@@ -1,0 +1,22 @@
+{
+    "name": "id330-final-project",
+    "version": "1.0.0",
+    "description": " ",
+    "main": "index.js",
+    "scripts": {
+        "scss": "node-sass --watch scss -o css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rw-coding/ID330_FinalProject.git"
+    },
+    "author": "Richard Walker",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/rw-coding/ID330_FinalProject/issues"
+    },
+    "homepage": "https://github.com/rw-coding/ID330_FinalProject",
+    "dependencies": {
+        "node-sass": "^4.13.1"
+    }
+}

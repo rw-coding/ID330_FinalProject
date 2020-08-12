@@ -1,0 +1,159 @@
+/* Grid */
+body, header, main, footer, .apply-grid {
+  display: grid;
+  grid-auto-rows: auto; }
+
+.flex {
+  display: flex; }
+
+.column {
+  flex-direction: column; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+.full-width {
+  grid-column: span 8; }
+
+.c-one {
+  grid-column: 2; }
+
+.c-two {
+  grid-column: 3; }
+
+.c-three {
+  grid-column: 4; }
+
+.c-four {
+  grid-column: 5; }
+
+.c-five {
+  grid-column: 6; }
+
+.c-six {
+  grid-column: 7; }
+
+.s-two {
+  grid-column: span 2; }
+
+.s-three {
+  grid-column: span 3; }
+
+.s-four {
+  grid-column: span 4; }
+
+.s-five {
+  grid-column: span 5; }
+
+.s-six {
+  grid-column: span 6; }
+
+.center {
+  margin-left: auto;
+  margin-right: auto; }
+
+.left {
+  margin-left: 0;
+  margin-right: auto; }
+
+.right {
+  margin-left: auto;
+  margin-right: 0; }
+
+@media only screen and (max-width: 767.98px) {
+  body, header, main, footer, .apply-grid {
+    grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr 0.5fr; }
+  .c-m-one {
+    grid-column: 2; }
+  .c-m-two {
+    grid-column: 3; }
+  .c-m-three {
+    grid-column: 4; }
+  .c-m-four {
+    grid-column: 5; }
+  .c-m-five {
+    grid-column: 6; }
+  .c-m-six {
+    grid-column: 7; }
+  .center-m {
+    margin-left: auto;
+    margin-right: auto; }
+  .left-m {
+    margin-left: 0;
+    margin-right: auto; }
+  .right-m {
+    margin-left: auto;
+    margin-right: 0; } }
+
+@media only screen and (min-width: 768px) {
+  body, header, main, footer, .apply-grid {
+    grid-template-columns: 1fr 1.25fr 1.25fr 1.25fr 1.25fr 1.25fr 1.25fr 1fr; } }
+
+/* Colors */
+.bg-lightbrown {
+  background-color: #ffe7c7; }
+
+.c-lightbrown {
+  color: #ffe7c7; }
+
+.bg-darkbrown {
+  background-color: #362e24; }
+
+.c-darkbrown {
+  color: #362e24; }
+
+.bg-hazybrown {
+  background-color: #74695c; }
+
+.c-hazybrown {
+  color: #74695c; }
+
+.bg-white {
+  background-color: #ffffff; }
+
+.c-white {
+  color: #ffffff; }
+
+/* Navbar */
+@media only screen and (max-width: 767.98px) {
+  .top-nav {
+    padding-top: 3%;
+    padding-bottom: 3%; }
+  .bottom-nav {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    overflow: hidden; }
+    .bottom-nav a {
+      display: none; } }
+
+@media only screen and (min-width: 768px) {
+  .top-nav {
+    padding-top: 2%;
+    padding-bottom: 2%; }
+  .bottom-nav {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    overflow: hidden; }
+    .bottom-nav a {
+      display: none; } }
+
+@media only screen and (min-width: 968px) {
+  #hamburger-menu {
+    display: none; }
+  .bottom-nav {
+    height: 100%; }
+    .bottom-nav a {
+      display: block; } }
+
+/* Main */
+main {
+  height: 100%; }
+
+a {
+  text-decoration: none; }
+
+/* Footer */
+footer {
+  padding-top: 5%;
+  padding-bottom: 5%; }
