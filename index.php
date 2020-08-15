@@ -1,7 +1,7 @@
 <?php
     include "php/logininfo.php";
 ?>
-
+192.168.33.10
 <!DOCTYPE html>
 <html>
         <?php

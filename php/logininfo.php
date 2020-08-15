@@ -1,3 +1,3 @@
 <?php
-    $loggedIn = true;
+    $loggedIn = false;
 ?>
