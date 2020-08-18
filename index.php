@@ -1,7 +1,7 @@
 <?php
     include "php/logininfo.php";
 ?>
-192.168.33.10
+
 <!DOCTYPE html>
 <html>
         <?php
@@ -21,6 +21,14 @@
                     stock there will be a discount on them for a short time as an apology for 
                     being unavailable.
                 </p>
+                <h1>
+                    <?php
+                        // if(!$connection)
+                        // {
+                        //   die('Could not Connect MySql Server:');
+                        // };
+                    ?>
+                </h1>
             </div>
         <?php
             include "php/footer.php";

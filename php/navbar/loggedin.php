@@ -1,8 +1,8 @@
 <header class="full-width">
     <div class="top-nav bg-darkbrown c-white full-width apply-grid">
-        <a class="c-five c-m-four right center-m"><i class="fas fa-shopping-cart fa-2x"></i></a>
-        <a class="c-six c-m-five center center-m"><i class="fas fa-user fa-2x"></i></a>
-        <a class="c-m-six center-m" id="hamburger-menu"><i class="fas fa-bars fa-2x"></i></a>
+        <a id="cart" class="c-five c-m-three right center-m"><i class="fas fa-shopping-cart fa-2x"></i></a>
+        <a id="user" class="c-six c-m-four center center-m"><i class="fas fa-user fa-2x"></i></a>
+        <a class="c-six cs-six true-center" id="hamburger-menu"><i class="fas fa-bars fa-2x"></i></a>
     </div>
     <div class="bottom-nav bg-hazybrown full-width apply-grid">
         <a href="index.php" class="c-white c-one">Home</a>
