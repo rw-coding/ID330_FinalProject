@@ -3,12 +3,12 @@
     <footer class="bg-darkbrown c-white full-width">
         <div>
         </div>
-        <div class="c-one s-two flex column">
+        <div class="c-one-s-two flex column">
             <h3>Pages:</h3>
-            <a href="#" class="c-white">Home</a>
-            <a href="#" class="c-white">Store</a>
-            <a href="#" class="c-white">Updates</a>
-            <a href="#" class="c-white">Contact Us</a>
+            <a href="index.php" class="c-white">Home</a>
+            <a href="store.php" class="c-white">Store</a>
+            <a href="updates.php" class="c-white">Updates</a>
+            <a href="contact.php" class="c-white">Contact Us</a>
         </div>
     </footer>
 

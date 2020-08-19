@@ -1,16 +1,23 @@
 /* Navbar */
+#bottom-nav {
+    overflow: hidden;
+}
+#close-menu {
+    display: none;
+}
 
 @media only screen and (max-width: 767.98px) {
     .top-nav {
         padding-top: 3%;
         padding-bottom: 3%;
     }
-    .bottom-nav {
+    #bottom-nav {
         padding-top: 1%;
         padding-bottom: 1%;
+        height: 1px;
         overflow: hidden;
 
-        a {
+        .normal {
             display: none;
         }
     }
@@ -21,12 +28,12 @@
         padding-top: 2%;
         padding-bottom: 2%;
     }
-    .bottom-nav {
+    #bottom-nav {
         padding-top: 1%;
         padding-bottom: 1%;
         overflow: hidden;
 
-        a {
+        .normal {
             display: none;
         }
     }
@@ -36,11 +43,14 @@
     #hamburger-menu {
         display: none;
     }
-    .bottom-nav {
+    #bottom-nav {
         height: 100%;
 
-        a {
+        .normal {
             display: block;
+        }
+        .shrunk {
+            display: none;
         }
     }
 }

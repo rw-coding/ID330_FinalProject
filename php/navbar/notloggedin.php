@@ -1,13 +1,7 @@
-<header class="full-width">
+<header class="full-width top-apply-grid">
     <div class="top-nav bg-darkbrown c-white full-width apply-grid">
-        <a id="login" class="c-five inner-center text-center ptb bg-hazybrown">Log in</a>
-        <a id="signup" class="c-six inner-center text-center ptb bg-hazybrown">Sign up</a>
-        <a class="c-six true-center" id="hamburger-menu"><i class="fas fa-bars fa-2x"></i></a>
+        <a href="login.php" id="login" class="c-five inner-center text-center ptb bg-hazybrown c-white">Log in</a>
+        <a href="signup.php" id="signup" class="c-six inner-center text-center ptb bg-hazybrown c-white">Sign up</a>
+        <div class="c-four cs-six true-center" id="hamburger-menu"><i class="fas fa-bars fa-2x"></i></div>
+        <div class="c-four cs-six true-center" id="close-menu"><i class="fas fa-times fa-2x"></i></div>
     </div>
-    <div class="bottom-nav bg-hazybrown full-width apply-grid">
-        <a href="index.php" class="c-white c-one">Home</a>
-        <a href="store.php" class="c-white c-two">Store</a>
-        <a href="updates.php" class="c-white c-three">Updates</a>
-        <a href="contact.php" class="c-white c-four">Contact Us</a>
-    </div>
-</header>

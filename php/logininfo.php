@@ -1,7 +1,7 @@
 <?php
     error_reporting(E_ERROR);
 
-    $loggedIn = true;
+    $loggedIn = false;
 
     mysqli_connect();
 
@@ -15,5 +15,4 @@
 
     $email = mysqli_query($connection,"SELECT email,email FROM users");
     $result = mysqli_query($connection, $email);
-
 ?>

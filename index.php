@@ -11,9 +11,9 @@
                 <img src="images/Cleaning.jpg">
             </div>
             <div class="main-content bg-white apply-grid">
-                <h3 class="c-one-s-three">Recent News</h3>
-                <h4 class="c-one-s-three">NOTICE</h4>
-                <p class="c-one-s-six">
+                <h3 class="c-one-s-three column-width">Recent News</h3>
+                <h4 class="c-one-s-three column-width">NOTICE</h4>
+                <p class="c-one-s-six column-width">
                     In recent months, due to the situation that is currently happening due to 
                     Covid-19, some of our usual items are temporarily out of stock due to not 
                     enough of them being produced to meet the demand. We will get these items 

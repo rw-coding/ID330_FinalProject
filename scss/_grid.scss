@@ -1,8 +1,14 @@
 /* Grid */
+@import url("../font/Lato-Regular.ttf");
 
-html {
+html, header {
     height: 100%;
     width: 100%;
+}
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
 }
 
 body, header, main, footer, .apply-grid {
@@ -10,9 +16,13 @@ body, header, main, footer, .apply-grid {
     grid-auto-rows: auto;
 }
 
-img {
-    height: 200px;
+#storefront {
+    img {
+        height: 200px;
+        width: 100%;
+    }
 }
+
 .flex {
     display: flex;
 }
@@ -24,17 +34,24 @@ body {
     margin: 0;
     padding: 0;
 }
-
-img {
-    width: 100%;
+.top-apply-grid {
+    grid-template-rows: 75px auto;
 }
 
 .full-width {
     grid-column: span 8;
 }
+.button {
+    width: 100%;
+    border-radius: 5rem;
+}
 
 .center {
     margin-left: auto;
+    margin-right: auto;
+}
+.vertical-center {
+    margin-top: auto;
     margin-right: auto;
 }
 .inner-center {
@@ -58,6 +75,11 @@ img {
 
 .hero {
     grid-column: span 8;
+    width: 100%;
+
+    img {
+        width: 100%;
+    }
 }
 
 .ptb {
@@ -67,9 +89,15 @@ img {
 .pb {
     padding-bottom: 20px;
 }
+.pt {
+    padding-top: 20px;
+}
+.mt {
+    margin-top: 20px;
+}
 
 @media only screen and (max-width: 767.98px) {
-    body, header, main, footer, .apply-grid {
+    body, header, main, footer, .apply-grid, .top-apply-grid {
         grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr 0.5fr;
     }
     #login, #signup, #cart, #user {
@@ -97,9 +125,19 @@ img {
     .main-content {
         grid-column: span 8;
     }
+    .c-one-s-two {
+        grid-column-start: 2;
+        grid-column-end: span 2;
+    }
     .column-width {
         grid-column-start: 2;
         grid-column-end: span 6;
+    }
+    .full-s-width {
+        grid-column: span 8;
+    }
+    .cs-one {
+        grid-column: 2;
     }
     .cs-six {
         grid-column: 7;
@@ -175,6 +213,10 @@ img {
         grid-column-start: 2;
         grid-column-end: span 6;
     }
+    .c-two-s-five {
+        grid-column-start: 3;
+        grid-column-end: span 5;
+    }
     .c-three-s-two {
         grid-column-start: 4;
         grid-column-end: span 2;
@@ -200,6 +242,14 @@ img {
     }
     .cm-one-s-two {
         grid-column-start: 2;
+        grid-column-end: span 2;
+    }
+    .cm-one-s-four {
+        grid-column-start: 2;
+        grid-column-end: span 4;
+    }
+    .cm-two-s-two {
+        grid-column-start: 3;
         grid-column-end: span 2;
     }
     .cm-three-s-two {
@@ -280,6 +330,10 @@ img {
     .c-one-s-six {
         grid-column-start: 2;
         grid-column-end: span 6;
+    }
+    .c-two-s-four {
+        grid-column-start: 3;
+        grid-column-end: span 4;
     }
     .c-three-s-two {
         grid-column-start: 4;
