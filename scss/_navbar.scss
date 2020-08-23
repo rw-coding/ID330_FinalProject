@@ -1,0 +1,56 @@
+/* Navbar */
+#bottom-nav {
+    overflow: hidden;
+}
+#close-menu {
+    display: none;
+}
+
+@media only screen and (max-width: 767.98px) {
+    .top-nav {
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+    #bottom-nav {
+        padding-top: 1%;
+        padding-bottom: 1%;
+        height: 1px;
+        overflow: hidden;
+
+        .normal {
+            display: none;
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .top-nav {
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    #bottom-nav {
+        padding-top: 1%;
+        padding-bottom: 1%;
+        overflow: hidden;
+
+        .normal {
+            display: none;
+        }
+    }
+}
+
+@media only screen and (min-width: 968px) {
+    #hamburger-menu {
+        display: none;
+    }
+    #bottom-nav {
+        height: 100%;
+
+        .normal {
+            display: block;
+        }
+        .shrunk {
+            display: none;
+        }
+    }
+}
